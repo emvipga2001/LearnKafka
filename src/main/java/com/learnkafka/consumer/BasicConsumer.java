@@ -27,7 +27,7 @@ public class BasicConsumer {
 
     private static final Logger log = LoggerFactory.getLogger(BasicConsumer.class);
     private static final String TOPIC_NAME = "order-events";
-    private static final String GROUP_ID = "order-processing-group";
+    private static final String GROUP_ID = "order-processing-group-v2";
 
     public static void main(String[] args) {
         log.info("=== [KHỞI ĐỘNG KAFKA CONSUMER CHUYÊN SÂU] ===");
